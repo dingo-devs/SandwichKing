@@ -1,4 +1,4 @@
-package io.dingodevs.sandwichking
+package io.dingodevs.sandwichking.viewmodel
 
 import androidx.lifecycle.ViewModel
 
