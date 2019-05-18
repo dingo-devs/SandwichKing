@@ -25,8 +25,4 @@ class ArduinoSettingsFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(ArduinoSettingsViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
-    companion object {
-        fun newInstance() = ArduinoSettingsFragment()
-    }
 }

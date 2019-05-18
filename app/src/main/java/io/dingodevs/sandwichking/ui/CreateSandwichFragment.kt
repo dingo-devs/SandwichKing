@@ -25,8 +25,4 @@ class CreateSandwichFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(CreateSandwichViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
-    companion object {
-        fun newInstance() = CreateSandwichFragment()
-    }
 }
