@@ -3,11 +3,11 @@
 
     <item
             android:id="@+id/createSandwichFragment"
-            android:icon="@drawable/ic_hamburger_black"
+            android:icon="@drawable/ic_sandwich_black"
             android:title="@string/title_sandwich"/>
 
     <item
             android:id="@+id/arduinoSettingsFragment"
-            android:icon="@drawable/ic_settings_black_24dp"
+            android:icon="@drawable/ic_settings_black"
             android:title="@string/title_settings"/>
 </menu>
