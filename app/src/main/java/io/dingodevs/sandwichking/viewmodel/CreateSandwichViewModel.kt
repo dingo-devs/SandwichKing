@@ -24,9 +24,9 @@ class CreateSandwichViewModel : ViewModel() {
     // TODO: add callback
     fun createSandwich() {
         val sandwichRequest = SandwichRequest(sandwichIngredientsModelMap.filter { it.value.selected }.keys)
-        if (sandwichRequest.sandwichIngedientIds.isEmpty()) return
+        if (sandwichRequest.sandwichIngredientIds.isEmpty()) return
 
         // TODO: process request and send to arduino using bluetooth
-        Log.i(this.toString(), sandwichRequest.sandwichIngedientIds.toString())
+        Log.i(this.toString(), sandwichRequest.sandwichIngredientIds.toString())
     }
 }

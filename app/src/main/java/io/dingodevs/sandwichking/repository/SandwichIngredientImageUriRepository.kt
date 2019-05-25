@@ -6,13 +6,13 @@ object SandwichIngredientImageUriRepository {
     private const val RESOURCE_BASE = "android.resource://io.dingodevs.sandwichking/"
 
     private val imageUriMap = mapOf(
-        SandwichIngedientId.Tomato to RESOURCE_BASE + R.drawable.img_ingredient_tomatoes,
-        SandwichIngedientId.Pickle to RESOURCE_BASE + R.drawable.img_ingredient_pickles,
-        SandwichIngedientId.Lettuce to RESOURCE_BASE + R.drawable.img_ingredient_lettuce,
-        SandwichIngedientId.Onion to RESOURCE_BASE + R.drawable.img_ingredient_onion,
-        SandwichIngedientId.Burger to RESOURCE_BASE + R.drawable.img_ingredient_burger
+        SandwichIngredientId.Tomato to RESOURCE_BASE + R.drawable.img_ingredient_tomatoes,
+        SandwichIngredientId.Pickle to RESOURCE_BASE + R.drawable.img_ingredient_pickles,
+        SandwichIngredientId.Lettuce to RESOURCE_BASE + R.drawable.img_ingredient_lettuce,
+        SandwichIngredientId.Onion to RESOURCE_BASE + R.drawable.img_ingredient_onion,
+        SandwichIngredientId.Burger to RESOURCE_BASE + R.drawable.img_ingredient_burger
     )
 
-    fun sandwichIngredientImageUri(sandwichIngredientId: SandwichIngedientId): String =
+    fun sandwichIngredientImageUri(sandwichIngredientId: SandwichIngredientId): String =
         imageUriMap[sandwichIngredientId].orEmpty()
 }

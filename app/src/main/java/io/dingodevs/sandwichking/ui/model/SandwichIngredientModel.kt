@@ -1,9 +1,9 @@
 package io.dingodevs.sandwichking.ui.model
 
-import io.dingodevs.sandwichking.repository.SandwichIngedientId
+import io.dingodevs.sandwichking.repository.SandwichIngredientId
 
 data class SandwichIngredientModel(
-    val id: SandwichIngedientId,
+    val id: SandwichIngredientId,
     val name: String,
     val imageUri: String,
     var selected: Boolean

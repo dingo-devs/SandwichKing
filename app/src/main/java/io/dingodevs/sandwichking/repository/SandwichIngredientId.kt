@@ -1,6 +1,6 @@
 package io.dingodevs.sandwichking.repository
 
-enum class SandwichIngedientId(val id: Int) {
+enum class SandwichIngredientId(val id: Int) {
     Tomato(1 shl 0),
     Pickle(1 shl 1),
     Lettuce(1 shl 2),

@@ -1,5 +1,5 @@
 package io.dingodevs.sandwichking.entity
 
-import io.dingodevs.sandwichking.repository.SandwichIngedientId
+import io.dingodevs.sandwichking.repository.SandwichIngredientId
 
-data class SandwichIngredient(val id: SandwichIngedientId, val name: String)
+data class SandwichIngredient(val id: SandwichIngredientId, val name: String)
