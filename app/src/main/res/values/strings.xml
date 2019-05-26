@@ -4,4 +4,10 @@
     <string name="title_settings">Settings</string>
     <string name="create_sandwich_button">DO IT</string>
     <string name="bluetooth">Bluetooth</string>
+    <string name="grip">Grip</string>
+    <string name="wristPitch">Wrist Pitch</string>
+    <string name="wristRoll">Wrist Roll</string>
+    <string name="elbow">Elbow</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="waist">Waist</string>
 </resources>

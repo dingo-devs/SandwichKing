@@ -10,4 +10,8 @@ object SandwichIngredientRepository {
         SandwichIngredient(SandwichIngredientId.Onion, "Onion"),
         SandwichIngredient(SandwichIngredientId.Burger, "Burger")
     )
+
+    fun getById(id: Int): SandwichIngredient {
+        return sandwichIngredientData.filter { it.id.id == id }.first()
+    }
 }

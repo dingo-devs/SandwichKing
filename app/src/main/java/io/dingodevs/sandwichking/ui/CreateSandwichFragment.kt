@@ -36,9 +36,8 @@ class CreateSandwichFragment : Fragment() {
         }
 
         viewManager = LinearLayoutManager(context)
-        viewAdapter = SandwichIngredientViewAdapter(viewModel.sandwichIngredientsModelList()) { item, isSelected ->
-            (viewModel.sandwichIngredientsModelMap[item.id]
-                ?: error("Item with id ${item.id} does not exist")).selected = isSelected
+        viewAdapter = SandwichIngredientViewAdapter(viewModel.sandwichIngredientsModelList) { item, isSelected ->
+            viewModel.updateSelected(item.id, isSelected)
         }
 
         sandwichIngredientListRecyclerView =
